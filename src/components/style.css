@@ -1,0 +1,29 @@
+:root {
+    --background: #FFEEC8;
+    --text-color: rgb(37, 99, 37);
+}
+
+.header {
+    background-color: var(--background);
+    border-bottom: 2px solid var(--text-color);
+}
+
+.menu-color {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.hero{
+    background-color: var(--background);
+    color: var(--text-color);
+}
+
+.delivery{
+    border-bottom: 2px solid green;
+}
+
+.footer{
+    background-color: var(--background);
+}
